@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title> Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                AYUSHI <span>KAPOOR</span>
+            </div>
+            <div class="links">
+                <div class="link" ><a href="#">Home</a></div>
+                <div class="link" ><a href="#">About</a></div>
+                <div class="link" ><a href="#">Skills</a></div>
+                <div class="link" ><a href="#">Services</a></div>
+                <div class="link" ><a href="#">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image">
+                <img src="background.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>AYUSHI</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm an aspiring WEB DEVELOPER</div>
+                <p>I am eager to further develop my skills in front-end and back-end development, learn about
+                    responsive design, and explore frameworks and libraries like React and Bootstrap. My goal is
+                    to build websites that not only meet the technical requirements but also provide an
+                    exceptional user experience. While I am at the beginning of my web development career, I am
+                    confident in my ability to approach challenges with creativity, determination, and a
+                    problem-solving mindset. I am looking forward to collaborating with experienced professionals,
+                    learning best practices, and applying my skills to real-world projects.</p>
+                <div class="social-links">
+                    <a href="#" ><i class="fa-brands fa-github"></i></a>
+                    <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" ><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" ><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
